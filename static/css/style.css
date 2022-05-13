@@ -1,0 +1,164 @@
+/***** Common ***********/
+
+html,
+body {
+    margin: 0;
+    max-height: 100%;
+}
+
+.content {
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+
+/*********Posts **********/
+
+.post_form {
+    padding: 20px 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+.post_form input {
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.post_form textarea {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.post_form #attachment {
+    width: 40%;
+}
+
+.post_form #tweet {
+    border: 1px solid #370035;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 15%;
+    background: linear-gradient(110deg, #00D9AD 40%, #1FC5BF 60%);
+    color: #370035;
+}
+
+.posts ul {
+    padding: 0;
+}
+
+.posts li {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 40px;
+    list-style: none;
+    position: relative;
+}
+
+.posts li .menu_icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.posts li .menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    border: 1px solid #ccc;
+    background: white;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.posts li .menu a {
+    text-decoration: none;
+}
+
+.posts li .menu img {
+    width: 20px;
+}
+
+.posts li .logo {
+    flex-basis: 15%;
+}
+
+.posts li .logo img {
+    width: 60%;
+}
+
+.posts li .name_body {
+    flex-basis: 85%;
+}
+
+.posts li .name_body .name {
+    font-weight: bold;
+}
+
+.posts li .name_body .datetime {
+    color: gray;
+}
+
+.Header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    background: linear-gradient(110deg, #00D9AD 40%, #1FC5BF 60%);
+    color: #370035;
+}
+
+.Header img {
+    width: 9%;
+    background-color: #370035;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.like img {
+    width: 6%;
+}
+
+
+/*******EDIT******/
+
+.btns {
+    width: 60%;
+}
+
+.post_form #image {
+    width: 40%;
+}
+
+.post_form #update {
+    border: none;
+    width: 25%;
+    border-radius: 5px;
+    background: linear-gradient(110deg, #00D9AD 40%, #1FC5BF 60%);
+    font-weight: bold;
+    color: #370035;
+    border: 1px solid #370035;
+}
+
+.post_form #cancel {
+    width: 25%;
+    border-radius: 5px;
+    background: linear-gradient(110deg, #00D9AD 40%, #1FC5BF 60%);
+    font-weight: bold;
+    color: #370035;
+    border: 1px solid #370035;
+}
+
+@media screen and (max-width: 500px) {
+    .posts li .name_body .name {
+        font-size: 20px;
+    }
+}
